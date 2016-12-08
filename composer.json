@@ -36,11 +36,17 @@
             "homepage": "https://github.com/lexik/LexikJWTAuthenticationBundle/graphs/contributors"
         }
     ],
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/obtao/jose"
+      }
+    ],
     "require": {
         "php": "^5.5|^7.0",
         "symfony/framework-bundle": "^2.8|^3.0|^4.0",
         "symfony/security-bundle": "^2.8|^3.0|^4.0",
-        "namshi/jose": "^7.2"
+        "namshi/jose": "dev-remove-iat"
     },
     "require-dev": {
         "symfony/phpunit-bridge": "~3.3",
